@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Yellowtail', cursive;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'block/menu';
+@import 'block/header';

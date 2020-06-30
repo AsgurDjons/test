@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    align-items: center;
+    background: gray;
+    height: 50px;
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        &__item {
+            display: block;
+            list-style-type: none;
+            &_link {
+                display: block;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 18px;
+                color: white;
+            }
+        }
+    }
+}

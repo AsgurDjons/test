@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    height: 740px;
+    .name {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 220px;
+        &__item {
+            font-size: 25px;
+        }
+    }
+    .photo {
+        img {
+            display: block;
+            width: 400px;
+            height: 500px;
+            border-radius: 10px;
+        }
+    }
+}
