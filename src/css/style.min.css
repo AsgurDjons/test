@@ -1,1 +1,95 @@
-*{margin:0;padding:0}body{font-family:Yellowtail,cursive}.container{width:1140px;margin:0 auto}.nav{display:flex;align-items:center;background:gray;height:50px}.nav .menu{display:flex;justify-content:space-between}.nav .menu__item{display:block;list-style-type:none}.nav .menu__item_link{display:block;text-decoration:none;text-transform:uppercase;font-size:18px;color:#fff}header{height:800px}header .wrapper{background:url(../img/3.jpg) center 20%/cover no-repeat;height:800px}header .wrapper .bg-fon{display:flex;justify-content:center;align-items:flex-end;background-color:rgba(0,0,0,.6);height:800px;margin-top:50px;padding-top:0;position:absolute;width:100%;top:0}header .wrapper .bg-fon .promo{display:flex;justify-content:center;margin-bottom:120px}header .wrapper .bg-fon .promo__text{color:linen;font-size:44px;text-transform:uppercase}header .btn__descr{display:flex;flex-direction:column;align-items:center;padding-top:50px}header .btn__descr .descr{text-align:center;font-size:28px}header .btn__descr button{width:300px;height:50px;margin-top:50px;margin-bottom:50px;background:#b0e0e6;border:solid #0ff;box-shadow:0 2px 10px 4px #696969;font-size:18px}
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: Yellowtail, cursive
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background: gray;
+    height: 50px
+}
+
+.nav .menu {
+    display: flex;
+    justify-content: space-between
+}
+
+.nav .menu__item {
+    display: block;
+    list-style-type: none
+}
+
+.nav .menu__item_link {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff
+}
+
+header {
+    height: 800px
+}
+
+header .wrapper {
+    background: url(img/3.jpg) center 20%/cover no-repeat;
+    height: 800px
+}
+
+header .wrapper .bg-fon {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: rgba(0, 0, 0, .6);
+    height: 800px;
+    margin-top: 50px;
+    padding-top: 0;
+    position: absolute;
+    width: 100%;
+    top: 0
+}
+
+header .wrapper .bg-fon .promo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px
+}
+
+header .wrapper .bg-fon .promo__text {
+    color: linen;
+    font-size: 44px;
+    text-transform: uppercase
+}
+
+header .btn__descr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px
+}
+
+header .btn__descr .descr {
+    text-align: center;
+    font-size: 28px
+}
+
+header .btn__descr button {
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #b0e0e6;
+    border: solid #0ff;
+    box-shadow: 0 2px 10px 4px #696969;
+    font-size: 18px
+}
