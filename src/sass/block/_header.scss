@@ -1,23 +1,49 @@
-.wrapper {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 50px;
-    height: 740px;
-    .name {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 220px;
-        &__item {
-            font-size: 25px;
+header {
+    height: 800px;
+    .wrapper {
+        background: url('../img/3.jpg') center (20%/cover) no-repeat;
+        height: 800px;
+        .bg-fon {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            background-color: rgba(0,0,0,0.6);
+            height: 800px;
+            margin-top: 50px;
+            padding-top: 0;
+            position: absolute;
+            width: 100%;
+            top: 0;
+            .promo {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 120px;
+                &__text {
+                    color: linen;
+                    font-size: 44px;
+                    text-transform: uppercase;
+                }
+            }
         }
     }
-    .photo {
-        img {
-            display: block;
-            width: 400px;
-            height: 500px;
-            border-radius: 10px;
+    .btn__descr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        .descr {
+            text-align: center;
+            font-size: 28px;
+        }
+        button {
+            width: 300px;
+            height: 50px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            background: powderblue;
+            border: solid cyan;
+            box-shadow: 0px 2px 10px 4px dimgray;
+            font-size: 18px;
         }
     }
 }
