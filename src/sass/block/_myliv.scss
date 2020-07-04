@@ -1,0 +1,47 @@
+.myliv {
+    background: linear-gradient(to bottom, #000, #fff);
+    .myliv__header {
+        font-size: 32px;
+        padding-top: 100px;
+        color: white;
+        text-align: center;
+    }
+    .myliv__wrapper {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        margin-top: 100px;
+        &_descr {
+            width: 600px;
+            font-size: 24px;
+            text-align: justify;
+            color: black;
+        }
+        .photo {
+            width: 400px;
+            height: 500px;
+            background: url(../img/photo.JPG) center (center/cover) no-repeat;
+        }
+    }
+    .education {
+        .education__header {
+            font-size: 32px;
+            color: black;
+            margin-top: 150px;
+            padding-top: 50px;
+            text-align: center;
+            border-top:1px solid black;
+        }
+        .education__wrapper {
+            display: flex;
+            justify-content: space-between;
+            height: 100%;
+            margin-top: 60px;
+            &_descr {
+                font-size: 24px;
+                text-align: justify;
+                color: black;
+            }
+        }
+    }
+}
