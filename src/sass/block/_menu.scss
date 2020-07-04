@@ -16,6 +16,10 @@
                 font-size: 18px;
                 color: white;
             }
+            &:hover {
+                border: 1px solid white;
+                padding: 10px 10px;
+            }
         }
     }
 }

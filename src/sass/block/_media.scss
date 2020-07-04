@@ -1,0 +1,160 @@
+@media (max-width: 961px) {
+    .container {
+        width: 960px;
+    }
+    header {
+        .nav {
+            .menu {
+                .menu__item {
+                    padding: 0 20px;
+                }
+            }
+        }
+        .wrapper {
+            .bg-fon {
+                .promo {
+                    .promo__text {
+                        font-size: 28px;
+                    }
+                }
+            }
+        }
+    }
+    .myliv {
+        .myliv__wrapper {
+            &_descr {
+                width: 450px;
+                padding-left: 30px;
+            }
+            .photo {
+                margin-right: 30px;
+            }
+        }
+        .education {
+            .education__wrapper {
+                padding: 0 30px;
+            }
+        }   
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 720px;
+    }
+    header {
+        .nav {
+            .menu {
+                .menu__item {
+                    padding: 0 20px;
+                    &_link {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .wrapper {
+            height: 800px;
+            .bg-fon {
+                height: 800px;
+                .promo {
+                    .promo__text {
+                        font-size: 24px;
+                    }
+                }
+                .btn__descr {
+                    .header {
+                        font-size: 18px;
+                    }
+                    .subheader {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    .myliv {
+        .myliv__header {
+            padding-top: 80px;
+        }
+        .myliv__wrapper {
+            flex-direction: column-reverse;
+            align-items: center;
+            margin-top: 80px;
+            &_descr {
+                width: 600px;
+                padding-left: 0px;
+                padding-top: 30px;
+            }
+            .photo {
+                margin-right: 0px;
+            }
+        }
+        .education {
+            .education__wrapper {
+                padding: 0 30px;
+            }
+        }   
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 540px;
+    }
+    header {
+        .nav {
+            height: 45px;
+            .menu {
+                .menu__item {
+                    padding: 0 20px;
+                    &_link {
+                        font-size: 7px;
+                    }
+                }
+            }
+        }
+        .wrapper {
+            height: 600px;
+            .bg-fon {
+                height: 600px;
+                .promo {
+                    .promo__text {
+                        font-size: 24px;
+                    }
+                }
+                .btn__descr {
+                    .header {
+                        font-size: 18px;
+                    }
+                    .subheader {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    .myliv {
+        .myliv__header {
+            padding-top: 80px;
+        }
+        .myliv__wrapper {
+            flex-direction: column-reverse;
+            align-items: center;
+            margin-top: 80px;
+            &_descr {
+                width: 450px;
+                padding-left: 0px;
+                padding-top: 30px;
+            }
+            .photo {
+                margin-right: 0px;
+            }
+        }
+        .education {
+            .education__wrapper {
+                padding: 0 30px;
+            }
+        }   
+    }
+}
