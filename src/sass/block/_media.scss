@@ -40,6 +40,9 @@
     }
 }
 
+
+
+
 @media (max-width: 959px) {
     .container {
         width: 720px;
@@ -60,21 +63,17 @@
                 background-color: rgba(0, 0, 0, .8);
                 transition: .6s all
             }
-        
             .menu_active {
                 left: 0
             }
-        
             .menu_item {
                 padding-right: 0;
                 border: none;
                 margin: 10px 0
             }
-        
             .menu_link {
                 font-size: 20px
             }
-        
             .hamburger {
                 display: block;
                 position: absolute;
@@ -85,28 +84,23 @@
                 height: 12px;
                 z-index: 10;
             }
-        
             .hamburger span {
                 display: block;
                 height: 2px;
-                width: 100%;
+                // width: 100%;
                 background-color: #fff;
                 margin-bottom: 2px;
                 transition: .5s all
             }
-        
             .hamburger_active span {
                 margin-bottom: -2px
             }
-        
             .hamburger_active span:nth-child(1) {
                 transform: translateY(3px) rotate(-45deg)
             }
-        
             .hamburger_active span:nth-child(2) {
                 display: none
             }
-        
             .hamburger_active span:nth-child(3) {
                 transform: translateY(3px) rotate(45deg)
             }
@@ -158,6 +152,8 @@
     }
 }
 
+
+
 @media (max-width: 719px) {
     .container {
         width: 530px;
@@ -204,6 +200,85 @@
         .education {
             .education__wrapper {
                 padding: 0 30px;
+            }
+        }   
+    }
+}
+
+
+
+
+@media (max-width: 539px) {
+    .container {
+        width: 300px;
+    }
+    header {
+        nav {
+            height: 40px;
+        }
+        .wrapper {
+            height: 650px;
+            .bg-fon {
+                margin-top: 40px;
+                height: 610px;
+                .promo {
+                    .promo__text {
+                        font-size: 14px;
+                    }
+                }
+                .btn__descr {
+                    .header {
+                        font-size: 9px;
+                    }
+                    .subheader {
+                        font-size: 9px;
+                    }
+                    button {
+                        width: 150px;
+                        height: 30px;
+                        font-size: 8px;
+                        a {
+                            &:hover {
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .myliv {
+        .myliv__header {
+            padding-top: 30px;
+            font-size: 14px;
+        }
+        .myliv__wrapper {
+            margin-top: 30px;
+            &_descr {
+                width: 100%;
+                margin: 0;
+                font-size: 9px;
+
+            }
+            .photo {
+                width: 250px;
+                height: 350px;
+            }
+        }
+        .education {
+            .education__header {
+                padding-top: 30px;
+                font-size: 14px;
+                margin-top: 30px;
+            }
+            .education__wrapper {
+                padding: 0 0;
+                margin-top: 30px;
+                .education__wrapper_descr {
+                    width: 300px;
+                    padding: 0;
+                    font-size: 9px;
+                }
             }
         }   
     }
