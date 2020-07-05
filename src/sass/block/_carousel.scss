@@ -1,0 +1,48 @@
+.documents {
+    padding-top: 50px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center;
+}
+.carousel {
+    padding: 45px 0;
+    &__inner {
+        position: relative;
+        width: 950px;
+        margin: 0 auto;
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .diploma {
+                display: block;
+                margin: 0 auto;
+                width: 100%;
+                height: 700px;
+            }
+            .certificate {
+                display: block;
+                margin: 0 auto;
+                width: 550px;
+                height: 100%;
+            }
+        }
+    }
+    .slick-prev, .slick-next  {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        border: none;
+        background-color: #fff;
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    }
+    .slick-next  {
+        right: -66px;
+        left: auto;
+    }
+}
