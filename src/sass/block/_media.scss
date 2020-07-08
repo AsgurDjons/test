@@ -219,18 +219,22 @@
         .wrapper {
             height: 650px;
             .bg-fon {
+                display: flex;
+                justify-content: center;
                 margin-top: 40px;
                 height: 610px;
                 .promo {
                     .promo__text {
-                        font-size: 14px;
+                        font-size: 18px;
                     }
                 }
                 .btn__descr {
                     .header {
-                        font-size: 9px;
+                        margin-top: 30px;
+                        font-size: 12px;
                     }
                     .subheader {
+                        margin-top: 100px;
                         font-size: 9px;
                     }
                     button {
@@ -257,7 +261,7 @@
             &_descr {
                 width: 100%;
                 margin: 0;
-                font-size: 9px;
+                font-size: 12px;
 
             }
             .photo {
@@ -277,7 +281,7 @@
                 .education__wrapper_descr {
                     width: 300px;
                     padding: 0;
-                    font-size: 9px;
+                    font-size: 12px;
                 }
             }
         }   

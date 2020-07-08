@@ -1,7 +1,166 @@
 .tema-worck {
-    background: linear-gradient(to bottom, #fff, #000);
-    height: 800px;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(77, 50, 24));
+    height: 100%;
     .tema-header {
+        padding-top: 60px;
         font-size: 32px;
+    }
+    .tema-subheader {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        .tema-link {
+            display: flex;
+            margin-top: 20px;
+            list-style: none;
+            div {
+                padding-left: 30px;
+                width: 30px;
+                height: 30px;
+                position: relative;
+                &::before {
+                    content: "";
+                    background-color:rgb(46, 236, 46);
+                    display: block;
+                    position: absolute;
+                    top: 25%;
+                    transform: rotate(-45deg);
+                    width: 28px;
+                    height: 4px;
+                }
+                &::after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    top: 33%;
+                    transform: rotate(45deg) translate(-2px,9px);
+                    width: 15px;
+                    height: 4px;
+                    background-color:rgb(46, 236, 46);
+                }
+            }
+            span {
+                display: block;
+                font-size: 20px;
+                padding-left: 10px;
+                &:hover {
+                    color: rgb(23, 139, 23);
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    .nan-header {
+        font-size: 32px;
+        text-align: center;
+        color: white;
+        margin-top: 50px;
+    }
+    .nan-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        .nan-subheader {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 620px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            .nan-link {
+                display: flex;
+                margin-top: 20px;
+                list-style: none;
+                div {
+                    padding-left: 30px;
+                    width: 30px;
+                    height: 30px;
+                    position: relative;
+                    &::before {
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        top: 50%;
+                        transform: rotate(45deg);
+                        width: 28px;
+                        height: 4px;
+                        background-color: red;
+                    }
+                    &::after {
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        top: 50%;
+                        transform: rotate(-45deg);
+                        width: 28px;
+                        height: 4px;
+                        background-color: red;
+                    }
+                }
+                span {
+                    display: block;
+                    font-size: 20px;
+                    padding-left: 10px;
+                    color: white;
+                    &:hover {
+                        color: red;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+    .princep-header {
+        margin-top: 70px;
+        font-size: 26px;
+        color: white;
+    }
+    .princep-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+        padding-bottom: 50px;
+        .princep-list {
+            display: flex;
+            width: 50%;
+            margin-top: 40px;
+            div {
+                width: 70px;
+                height: 70px;
+                border-radius: 100%;
+                background-color: white;
+                position: relative;
+                &::before {
+                    content: "";
+                    background-color:rgb(46, 236, 46);
+                    display: block;
+                    position: absolute;
+                    top: 46%;
+                    right: 19%;
+                    transform: rotate(-45deg);
+                    width: 28px;
+                    height: 4px;
+                }
+                &::after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    top: 49%;
+                    right: 39%;
+                    transform: rotate(45deg) translate(-2px,9px);
+                    width: 15px;
+                    height: 4px;
+                    background-color:rgb(46, 236, 46);
+                }
+            }
+            span {
+                display: flex;
+                align-items:center;
+                padding-left: 20px;
+                width: 80%;
+                font-size: 20px;
+                color: white;
+                text-align: start;
+            }
+        }
     }
 }

@@ -1,0 +1,39 @@
+.money-bg {
+    background-color: rgb(224, 219, 208);
+    height: 100%;
+    .money {
+        display: flex;
+        flex-direction: column;
+        &_header {
+            font-size: 42px;
+            text-align: center;
+            padding-top: 60px;
+            text-transform: uppercase;
+        }
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+            padding-bottom: 100px;
+            .money_iner{
+                font-size: 30px;
+                padding-top: 30px;
+                text-align: center;
+            }
+            button {
+                margin-top: 120px;
+                width: 30%;
+                height: 50px;
+                background-color: rgb(255, 230, 0);
+                box-shadow: 1px 1px 1px 1px rgb(248, 224, 4);
+                border-radius: 30px;
+                cursor: pointer;
+                font-size: 20px;
+                text-transform: uppercase; 
+                color: rgb(164, 182, 178);
+                text-decoration: none;
+            }
+        }
+    }
+}
