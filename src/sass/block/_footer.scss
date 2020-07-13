@@ -9,6 +9,9 @@
     .contacts-wrapper {
         display: flex;
         justify-content: center;
+        .contacts-header-mobail {
+            display: none;
+        }
         .contacts,
         .social {
             display: flex;
