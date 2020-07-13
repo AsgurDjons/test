@@ -2,13 +2,13 @@ header {
     height: 100%;
     .wrapper {
         background: url(../img/bg.JPG) center (20%/cover) no-repeat;
-        height: 950px;
+        height: 1000px;
         .bg-fon {
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
-            background-color: rgba(0,0,0,0.5);
+            background-color: rgba(17, 6, 0, 0.8);
             height: 950px;
             margin-top: 50px;
             padding-top: 0;
@@ -21,9 +21,11 @@ header {
                 width: 100%;
                 margin-top: 15px;
                 &__text {
+                    padding-top: 10%;
                     text-align: center;
                     color: linen;
-                    font-size: 44px;
+                    font-size: 62px;
+                    font-weight: 700;
                     text-transform: uppercase;
                 }
             }
@@ -33,34 +35,29 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 50px;
-        .header {
-            font-size: 28px;
-            color: white;
-            text-align: center;
-        }
+        padding-top: 5%;
         .subheader {
             font-size: 28px;
             color: white;
             text-align: center;
         }
-        button {
+        a {
+            display: block;
+            color: black;
+            text-decoration: none;
+            text-align: center;
+            line-height: 46px;
             width: 300px;
             height: 50px;
-            margin-top: 30px;
-            margin-bottom: 50px;
+            margin-top: 60px;
             background: rgb(216, 151, 132);
             border: 1px solid rgb(216, 131, 131);
             box-shadow: 0px 2px 10px 4px dimgray;
             text-transform: uppercase;
             border-radius: 30px;
             font-size: 18px;
-            cursor: pointer;
-            a {
-                color: black;
-                text-decoration: none;
-            }
             &:hover {
+                color: white;
                 background: red;
                 border: 1px solid rgb(206, 123, 123);
             }

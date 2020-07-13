@@ -16,7 +16,7 @@
             .bg-fon {
                 .promo {
                     .promo__text {
-                        font-size: 28px;
+                        font-size: 40px;
                     }
                 }
             }
@@ -37,6 +37,53 @@
                 padding: 0 30px;
             }
         }   
+    }
+    .documents {
+        padding-top: 50px;
+        color: black;
+        text-transform: uppercase;
+        font-size: 32px;
+        text-align: center;
+    }
+    .carousel {
+        &__inner {
+            width: 750px;
+            div {
+                .diploma {
+                    width: 100%;
+                    height: 600px;
+                }
+                .certificate {
+                    display: block;
+                    margin: 0 auto;
+                    width: 550px;
+                    height: 100%;
+                }
+            }
+        }
+        .slick-prev, .slick-next  {
+            top: 50%;
+            transform: translateY(-50%);
+            left: -66px;
+        }
+        .slick-next  {
+            right: -66px;
+            left: auto;
+        }
+    }
+    .tema-worck {
+        .princep-header {
+            font-size: 22px;
+            text-align: center;
+        }
+        .princep-wrapper {
+            margin-left: 20px;
+        }
+    }
+    .contacts-bg {
+        .consultation {
+            font-size: 40px;
+        }
     }
 }
 
@@ -87,7 +134,7 @@
             .hamburger span {
                 display: block;
                 height: 2px;
-                // width: 100%;
+                width: 100%;
                 background-color: #fff;
                 margin-bottom: 2px;
                 transition: .5s all
@@ -117,9 +164,6 @@
                 }
                 .btn__descr {
                     padding-top: 0;
-                    .header {
-                        font-size: 18px;
-                    }
                     .subheader {
                         font-size: 18px;
                     }
@@ -150,7 +194,57 @@
             }
         }   
     }
+    .carousel {
+        &__inner {
+            width: 550px;
+            div {
+                .diploma {
+                    width: 100%;
+                    height: 450px;
+                }
+                .certificate {
+                    width: 450px;
+                    height: 100%;
+                }
+            }
+        }
+        .slick-prev, .slick-next  {
+            top: 50%;
+            transform: translateY(-50%);
+            left: -66px;
+        }
+        .slick-next  {
+            right: -66px;
+            left: auto;
+        }
+    }
+    .contacts-bg {
+        .consultation {
+            font-size: 38px;
+        }
+        .contacts-wrapper {
+            .contacts,
+            .social {
+                .contacts-header {
+                    font-size: 28px;
+                }
+                .contacts__phone,
+                .contacts__skype {
+                    flex-direction: column;
+                    align-items: center;
+                    margin-left: 20px;
+                    &_link {
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
 }
+
+
+
+
 
 
 
@@ -170,9 +264,7 @@
                     }
                 }
                 .btn__descr {
-                    .header {
-                        font-size: 18px;
-                    }
+                    padding-top: 45px;
                     .subheader {
                         font-size: 18px;
                     }
@@ -203,12 +295,100 @@
             }
         }   
     }
+    .documents {
+        padding-top: 50px;
+        font-size: 22px;
+    }
+    .carousel {
+        padding: 45px 0;
+        &__inner {
+            width: 400px;
+            div {
+                .diploma {
+                    width: 400px;
+                    height: 300px;
+                }
+                .certificate {
+                    width: 300px;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .tema-worck {
+        .princep-header {
+            font-size: 18px;
+        }
+        .princep-wrapper {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 0;
+            .princep-list {
+                div {
+                    padding-left: 0px;
+                    width: 50px;
+                    height: 50px;
+                    position: relative;
+                    &::before {
+                        width: 28px;
+                        height: 2px;
+                        right: 6px;
+                    }
+                    &::after {
+                        width: 15px;
+                        height: 2px;
+                        right: 20px;
+                    }
+                }
+                span {
+                    font-size: 14px;
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+    .money-bg {
+        .money {
+            &_header {
+                font-size: 35px;
+                padding-top: 45px;
+            }
+            &__wrapper {
+                padding-top: 45px;
+                padding-bottom: 70px;
+                .money_iner{
+                    font-size: 25px;
+                    padding-top: 25px;
+                }
+            }
+        }
+    }
+    .contacts-bg {
+        height: 100%;
+        padding-bottom: 100px;
+        .consultation {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .contacts-wrapper {
+            .contacts,
+            .social {
+                .contacts-header {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
 }
 
 
 
 
-@media (max-width: 539px) {
+
+
+
+@media (max-width: 529px) {
     .container {
         width: 300px;
     }
@@ -225,27 +405,13 @@
                 height: 610px;
                 .promo {
                     .promo__text {
-                        font-size: 18px;
+                        font-size: 25px;
                     }
                 }
                 .btn__descr {
-                    .header {
-                        margin-top: 30px;
-                        font-size: 12px;
-                    }
                     .subheader {
                         margin-top: 100px;
-                        font-size: 9px;
-                    }
-                    button {
-                        width: 150px;
-                        height: 30px;
-                        font-size: 8px;
-                        a {
-                            &:hover {
-                                color: white;
-                            }
-                        }
+                        font-size: 15px;
                     }
                 }
             }
@@ -254,15 +420,14 @@
     .myliv {
         .myliv__header {
             padding-top: 40px;
-            font-size: 14px;
+            font-size: 25px;
         }
         .myliv__wrapper {
             margin-top: 20px;
             &_descr {
                 width: 100%;
                 margin: 0;
-                font-size: 12px;
-
+                font-size: 14px;
             }
             .photo {
                 width: 250px;
@@ -272,7 +437,7 @@
         .education {
             .education__header {
                 padding-top: 30px;
-                font-size: 14px;
+                font-size: 25px;
                 margin-top: 30px;
             }
             .education__wrapper {
@@ -281,9 +446,157 @@
                 .education__wrapper_descr {
                     width: 300px;
                     padding: 0;
-                    font-size: 12px;
+                    font-size: 14px;
                 }
             }
         }   
+    }
+    .documents {
+        font-size: 20px;
+    }
+    .carousel {
+        padding: 40px 0;
+        &__inner {
+            width: 300px;
+            div {
+                .diploma {
+                    width: 300px;
+                    height: 250px;
+                }
+                .certificate {
+                    width: 300px;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .tema-worck {
+        .tema-header {
+            font-size: 18px;
+        }
+        .tema-subheader {
+            .tema-link {
+                span {
+                    font-size: 14px;
+                    padding-left: 20px;
+                    &:hover {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .nan-header {
+            font-size: 18px;
+        }
+        .nan-wrapper {
+            .nan-subheader {
+                .nan-link {
+                    span {
+                        font-size: 14px;
+                        padding-left: 20px;
+                        &:hover {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+        .princep-header {
+            font-size: 14px;
+        }
+        .princep-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 0;
+            .princep-list {
+                width: 100%;
+                div {
+                    padding-left: 0px;
+                    width: 50px;
+                    height: 50px;
+                    position: relative;
+                    &::before {
+                        width: 28px;
+                        height: 2px;
+                        right: 6px;
+                    }
+                    &::after {
+                        width: 15px;
+                        height: 2px;
+                        right: 20px;
+                    }
+                }
+                span {
+                    font-size: 14px;
+                    padding-left: 15px;
+                }
+            }
+        }
+    }
+    .money-bg {
+        .money {
+            &_header {
+                font-size: 32px;
+                padding-top: 45px;
+            }
+            &__wrapper {
+                padding-top: 0px;
+                padding-bottom: 70px;
+                .money_iner{
+                    font-size: 18px;
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+    .contacts-bg {
+        height: 100%;
+        padding-bottom: 80px;
+        .consultation {
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .contacts-wrapper {
+            display: flex;
+            flex-direction: column;
+            .contacts-header-mobail {
+                font-size: 18px;
+                text-align: center;
+            }
+            .contacts,
+            .social {
+                margin-top: 30px;
+                width: 100%;
+                justify-content: space-between;
+                .contacts-header {
+                    display: none;
+                }
+                .contacts__phone,
+                .contacts__skype {
+                    width: 28%;
+                    margin-left: 0;
+                    &_item {
+                        width: 30px;
+                    }
+                    &_link {
+                        display: block;
+                        font-size: 10px;
+                        padding-left: 0;
+                        margin-top: 0;
+                    }
+                }
+                .contacts__watsapp,
+                .contacts__instagram {
+                    &_link {
+                        padding-left: 0px;
+                        img {
+                            width: 30px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

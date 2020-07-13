@@ -7,13 +7,20 @@ $(document).ready(function(){
         nextArrow: '<button type="button" class="slick-next"><img src="icons/right.svg"></button>',
         responsive: [
             {
-                breakpoint: 992,
+                breakpoint: 960,
                 settings: {
-                    dots: true,
-                    arrows: false
+                    dots: false,
+                    arrows: true,
                 }
+            },
+            {
+                breakpoint: 720,
+                settings: {
+                    dots: false,
+                    arrows: false,
+                },
             }
-        ]
+        ],
     });
     // Smooth scroll and pageup
 
