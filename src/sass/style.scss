@@ -3,6 +3,7 @@
     padding: 0;
 }
 @import 'block/fonts';
+@import 'block/slick-theme';
 body {
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
@@ -15,6 +16,7 @@ body {
 @import 'block/menu';
 @import 'block/header';
 @import 'block/myliv';
+@import 'block/slick';
 @import 'block/carousel';
 @import 'block/tema-worck';
 @import 'block/money';
